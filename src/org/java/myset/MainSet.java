@@ -11,7 +11,7 @@ public class MainSet {
 		
 		Random rnd = new Random();
 		
-		while (nums.size() != 5) {
+		while (nums.size() < 5) {
 			int randomNum = rnd.nextInt(2,13);
 			
 			nums.add(randomNum);
