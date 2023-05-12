@@ -12,9 +12,9 @@ public class MainSet {
 		Random rnd = new Random();
 		
 		while (nums.size() != 5) {
-			int num = rnd.nextInt(2,12);
+			int randomNum = rnd.nextInt(2,13);
 			
-			nums.add(num);
+			nums.add(randomNum);
 		}
 		
 		System.out.println("Ecco i numeri generati:");
