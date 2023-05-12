@@ -17,7 +17,10 @@ public class MainSet {
 			nums.add(num);
 		}
 		
-		System.out.println(nums);
+		System.out.println("Ecco i numeri generati:");
+		for (Integer num : nums) {
+			System.out.println(num);
+		}
 	}
 	
 }
